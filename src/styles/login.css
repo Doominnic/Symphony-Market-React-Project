@@ -1,0 +1,231 @@
+.login-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  height: 120px;
+  margin-top: 10px;
+  width: 500px;
+  margin-right: 30px;
+}
+
+.menu-top {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+#email {
+  width: 250px;
+  margin-left: 0;
+  height: 30px;
+  padding: 8px;
+}
+
+#password {
+  width: 200px;
+  margin-left: 0;
+  height: 30px;
+  padding: 8px;
+}
+
+.link-registro {
+  font-size: 20px;
+}
+
+.registro-btn > .link-registro {
+  background-color: goldenrod;
+  color: #16171f;
+  padding: 12px 16px;
+  font-weight: 100;
+}
+
+.registro-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.forgot,
+.link-registro {
+  color: goldenrod;
+
+  text-decoration: none;
+}
+
+.welcome-state {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.menu-login {
+  background-color: #16171f;
+}
+
+.title-login {
+  grid-row: 1 / 4;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+#recuerdame {
+  width: 20px;
+  margin-left: 0;
+}
+
+.container {
+  background-image: linear-gradient(to bottom, #16171f, rgba(12, 12, 12, 0.062)),
+    url(media/symphony.jpg);
+  height: 80vh;
+  background-size: cover;
+}
+
+.index-page {
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: rgb(231, 228, 228);
+  text-align: left;
+  padding: 100px;
+  display: flex;
+  padding-top: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#welcome-tit {
+  font-size: 64px;
+  text-align: left;
+  width: 40%;
+}
+
+.registrate {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+#btn-login {
+  grid-column: -2;
+}
+
+.no-cuenta-p {
+  margin-bottom: 10px;
+}
+
+#btn-login,
+#btn-google {
+  font-size: 16px;
+  width: 200px;
+  height: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-google {
+  height: 50px;
+}
+
+.link-login {
+  text-decoration: none;
+  color: #16171f;
+}
+
+.logo-login {
+  background-color: #16171f;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  border: 3.5px solid goldenrod;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+
+/*Registro*/
+
+.registro-form {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.329);
+  color: #16171f;
+  height: 700px;
+  font-size: 18px;
+  padding: 18px 24px;
+  font-family: "Montserrat";
+  margin-bottom: 30px;
+}
+
+.registro-tit {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.recuerdame-check {
+  width: 15px;
+  height: 15px;
+  margin-left: 0;
+  margin-right: 6px;
+}
+
+.recuerdame-label {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+}
+
+#input-regist {
+  margin-left: 0;
+  height: 30px;
+
+  margin-bottom: 6px;
+  width: 400px;
+  padding: 8px;
+}
+
+.registro-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.psw-label {
+  width: 500px;
+}
+
+.politica {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.cancelbtn {
+  width: 200px;
+}
+
+.signbtn {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.link-registro {
+  background-color: rgb(206, 156, 29);
+  color: #16171f;
+  padding: 10px 16px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.google-btn > button {
+  display: flex;
+  background-color: goldenrod;
+  margin-right: 45px;
+}
